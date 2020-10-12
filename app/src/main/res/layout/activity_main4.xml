@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:contentDescription="@string/choose_image" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_margin="32dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="@string/click_choose_image_button_nto_get_the_text_from_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_choose_image"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/choose_image"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_choose_image2"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_alignRight="@+id/bt_choose_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="-7dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="take picture"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

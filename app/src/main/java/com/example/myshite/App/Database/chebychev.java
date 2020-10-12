@@ -1,0 +1,37 @@
+package com.example.myshite.App.Database;
+
+public class chebychev {
+
+    private int id;
+    private String name;
+
+    private String chebyvector;
+    public  chebychev (String name, String chebyvector, int id) {
+        this.name = name;
+        this.chebyvector = chebyvector;
+        this.id = id;
+
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getChebyvector() {
+        return chebyvector;
+    }
+    public void setChebyvector(String chebyvector) {
+        this.chebyvector = chebyvector;
+    }
+
+}

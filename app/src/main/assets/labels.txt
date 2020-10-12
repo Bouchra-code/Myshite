@@ -1,0 +1,16 @@
+0 apple
+1 pear
+2 tomato
+3 onion
+4 garlic
+5 cucumber
+6 zucchini
+7 lemon
+8 pomegranate
+9 pen
+10 bottle
+11 car
+12 cow
+13 horse
+14 dog
+15 unknown

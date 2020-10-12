@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exctract"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Object extraction"/>
+        <item
+            android:id="@+id/lbp"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Elbp descriptor"/>
+        <item
+            android:id="@+id/reco2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Color descriptor"/>
+
+        <item
+            android:id="@+id/contour"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Chebyshev Moments"/>
+
+
+
+    <item
+        android:id="@+id/reco"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Object recognition "/>
+
+
+    </group>
+
+
+
+</menu>

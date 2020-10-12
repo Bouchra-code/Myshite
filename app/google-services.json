@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491486878177",
+    "firebase_url": "https://recognition-26626.firebaseio.com",
+    "project_id": "recognition-26626",
+    "storage_bucket": "recognition-26626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491486878177:android:4661a0541b7b7196b35aa0",
+        "android_client_info": {
+          "package_name": "com.example.myshite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491486878177-j1qfd4cf7seajb59f110492j8rmsg60c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH8zbZKW5CSTJrMh7nxNom0TU9B4OerQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491486878177-j1qfd4cf7seajb59f110492j8rmsg60c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
